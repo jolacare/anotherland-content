@@ -1,0 +1,23 @@
+{
+  "name": "@jolacare/anotherland-content",
+  "version": "1.0.0",
+  "files": [
+    "content"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.6",
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@types/node": "^18.16.19",
+    "eslint": "^8.45.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.1.6",
+    "unbuild": "^1.2.1",
+    "vite": "^4.4.4",
+    "vitest": "^0.29.8"
+  }
+}
